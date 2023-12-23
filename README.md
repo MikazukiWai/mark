@@ -154,7 +154,7 @@
 
 基於Python的超市管理系統的非功能性需求例如基於Python的超市管理系統的安全性怎麼樣，可靠性怎麼樣，性能怎麼樣，可拓展性怎麼樣等。具體可以表示在如下3-1表格中： 
 
-表3-1基於Python的超市管理系統非功能需求表
+表2-3-1基於Python的超市管理系統非功能需求表
 
 | 安全性|主要指基於Python的超市管理系統資料庫的安裝,資料庫的使用和密碼的設定必須合乎規範。|
 |-------|:-----:|
@@ -169,14 +169,23 @@
 
 透過2.3功能的分析，得出了本基於Python的超市管理系統的用例圖： 
 
-銷售人員使用者角色用例如圖2-3所示。
+銷售人員使用者角色用例如圖2-3-2所示。
 
+![image](https://github.com/MikazukiWai/mark/blob/main/image/2-3-2.png)
 
+圖2-3-2 基於Python的超市管理系統銷售人員角色用例圖 
 
+透過2.3功能的分析，得出了本基於Python的超市管理系統的用例圖：
 
+採購人員角色用例如圖2-3-3所示。
 
+![image](https://github.com/MikazukiWai/mark/blob/main/image/2-3-3.png)
 
+圖2-4 基於Python的超市管理系統採購人員角色用例圖
 
+web後台管理上的管理員是維護整個基於Python的超市管理系統中所有資料資訊的。管理員角色用例如圖2-3-4所示。
+
+![image](https://github.com/MikazukiWai/mark/blob/main/image/2-3-4.png)
 
 
 
