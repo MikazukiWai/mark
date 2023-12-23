@@ -92,7 +92,7 @@
 
 ![image](https://github.com/MikazukiWai/mark/blob/main/image/2-1.png)
 
-圖2-1顯示的就是在增加數據時的流程。
+**圖2-1顯示的就是在增加數據時的流程。**
 
 
 ### 2.2.2 資料修改流程
@@ -100,9 +100,9 @@
 
 資料修改時的流程和上面介紹的資料増加時的流程差不多,如圖 2-2
 
-圖片加入位置
+![image](https://github.com/MikazukiWai/mark/blob/main/image/2-2.png)
 
-圖2-2資料修改流程圖
+**圖2-2資料修改流程圖。**
 
 
 ### 2.2.3 資料刪除流呈
@@ -112,10 +112,9 @@
 
 就是資料刪除時的流程圖。
 
-圖片加入位置
+![image](https://github.com/MikazukiWai/mark/blob/main/image/2-3.png)
 
-
-
+**圖2-3資料刪除流程圖。**
 
 
 
