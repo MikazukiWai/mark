@@ -263,25 +263,25 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 
 以下是整個以Python為基礎的超市管理系統中主要的資料庫表總ER實體關係圖。
 
-圖片加入
+![image](https://github.com/MikazukiWai/mark/blob/main/image/3-6.png)
 
 圖3-6 基於Python的超市管理系統總ER關係圖 
 
 以下根據基於Python的超市管理系統的資料庫總ER關係圖可以得出基於Python的超市管理系統需要很多ER圖，在此羅列出來一些主要的資料庫ER模型圖。
 
-圖片
+![image](https://github.com/MikazukiWai/mark/blob/main/image/3-7.png)
 
 圖3-7銷售人員ER關係圖
 
-圖片
+![image](https://github.com/MikazukiWai/mark/blob/main/image/3-8.png)
 
 圖3-8 商品資訊ER關係圖
 
-t圖片
+![image](https://github.com/MikazukiWai/mark/blob/main/image/3-9.png)
 
 圖3-9會員資訊ER關係圖 
 
-圖片
+![image](https://github.com/MikazukiWai/mark/blob/main/image/3-10.png)
 
 圖3-10銷售記錄管理ER關係圖
 
