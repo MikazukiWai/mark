@@ -343,7 +343,7 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 |名稱|類型|長度|不是null|主鍵|註解|
 |-------|:-----:|------:|------:|------:|------:|
 |member_level_setting_id|int|11|是|是|會員等級設定ID|
-|membership_level|varchar|64|否|否|membership_level|
+|membership_level|varchar|64|否|否|會員等級|
 |recommend|int|11|是 |否|智慧推薦|
 |create_time|datetime|0|是|否|創建時間|
 |update_time|timestamp|0|是|否|更新時間|
@@ -367,22 +367,29 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 
 |名稱|類型|長度|不是null|主鍵|註解|
 |-------|:-----:|------:|------:|------:|------:|
-|sales record management id|int|11|是|是|銷售記錄管理ID|
+|commodity_information_management_id|int|11|是|是|商品資訊管理ID|
 |commodity_number|varchar|64|否|否|商品編號|
-|trade name|varchar|64|否|否|商品名稱|
+|trade_name|varchar|64|否|否|商品名稱|
 |commodity_type|varchar|64|否|否|商品類型|
+|product_picture|varchar|64|否|否|商品圖片|
+|merchandise_inventory|varchar|16| 否|否|商品庫存|
+|commodity_price|int|11|否|否|商品價格|
 |commodity_specifications|varchar|64|否|否|商品規格|
-|commodity_specifications|varchar|16| 否|否|商品價格|
-|sales volumes|int|11|否|否|銷售數量|
-|total sales|varchar|64|否|否|銷售總額|
-|salesperson no|int|11|否|否|銷售員編號|
-|full name|varchar|64|否|否|姓名|
-|date of sale|date|0|否|否|銷售日期|
+|product_ details|int|11|否|否|商品詳情|
 |recommend|int|11|是|否|智慧推薦|
 |create_time|datetime|0|是|否|創建時間|
 |update_time|timestamp|0|是|否|更新時間|
 
 **classification_information表:**
+
+|名稱|類型|長度|不是null|主鍵|註解|
+|-------|:-----:|------:|------:|------:|------:|
+|classification_information_id|int|11|是|是|分類資訊ID|
+|commodity_type|varchar|64|否|否|商品類型|
+|supplier|varchar|64|否|否|供應商|
+|recommend|int|11|是 |否|智慧推薦|
+|create_time|datetime|0|是|否|創建時間|
+|update_time|timestamp|0|是|否|更新時間|
 
 
 **3.4本章小結**
