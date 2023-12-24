@@ -291,24 +291,31 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 
 **salesman表：**
 
-| 表頭1 | 表頭2 | 表頭3 |表頭3 | 表頭3 |表頭3 |
+|名稱|類型|長度|不是null|主鍵|註解|
 |-------|:-----:|------:|------:|------:|------:|
-| 左1   |  中1  |   右1 | 右1 | 右1 |右1 |右1 |
-| 左2   |  中2  |   右2 | 右1 | 右1 |右1 |右1 |
-| 左3   |  中3  |   右3 | 右1 | 右1 |右1 |右1 |
+|salesman_id|int|11|是|是|銷售人員ID |
+|salesperson_no|varchar|   右2 | 右1 | 右1 |銷售員編號 |
+|full_name|varchar|   右3 | 右1 | 右1 |右1 |
+|gender|varchar|   右1 | 右1 | 右1 |右1 |
+|age|varchar|   右2 | 右1 | 右1 |右1 |
+|examine_State|varchar|   右3 | 右1 | 右1 |右1 |
+|recommend|int|   右1 | 右1 | 右1 |右1 |
+|user_id|int|   右2 | 右1 | 右1 |右1 |
+|create_time|datetime|   右3 | 右1 | 右1 |右1 |
+|update_time|timestamp|   右3 | 右1 | 右1 |右1 |
 
-sales_record_management表:
+**sales_record_management表:**
 
 
-purchasing_personnel表:
+**purchasing_personnel表:**
 
-member_level_setting表:
+**member_level_setting表:**
 
-member_information_management表:
+**member_information_management表:**
 
-commodity_information_management表:
+**commodity_information_management表:**
 
-classification_information表:
+**classification_information表:**
 
 
 **3.4本章小結**
