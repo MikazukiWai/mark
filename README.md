@@ -294,15 +294,15 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 |名稱|類型|長度|不是null|主鍵|註解|
 |-------|:-----:|------:|------:|------:|------:|
 |salesman_id|int|11|是|是|銷售人員ID |
-|salesperson_no|varchar|   右2 | 右1 | 右1 |銷售員編號 |
-|full_name|varchar|   右3 | 右1 | 右1 |右1 |
-|gender|varchar|   右1 | 右1 | 右1 |右1 |
-|age|varchar|   右2 | 右1 | 右1 |右1 |
-|examine_State|varchar|   右3 | 右1 | 右1 |右1 |
-|recommend|int|   右1 | 右1 | 右1 |右1 |
-|user_id|int|   右2 | 右1 | 右1 |右1 |
-|create_time|datetime|   右3 | 右1 | 右1 |右1 |
-|update_time|timestamp|   右3 | 右1 | 右1 |右1 |
+|salesperson_no|varchar|64|否|否|銷售員編號 |
+|full_name|varchar|64|否|否|姓名|
+|gender|varchar|64|否|否 |性別|
+|age|varchar|64|否|否|年齡|
+|examine_State|varchar|16| 是|否|右1 |
+|recommend|int|11|是 |否|右1 |
+|user_id|int|11|是|否|右1 |
+|create_time|datetime|0|是|否|右1 |
+|update_time|timestamp|0|是|否|右1 |
 
 **sales_record_management表:**
 
