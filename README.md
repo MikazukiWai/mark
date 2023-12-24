@@ -298,11 +298,11 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 |full_name|varchar|64|否|否|姓名|
 |gender|varchar|64|否|否 |性別|
 |age|varchar|64|否|否|年齡|
-|examine_State|varchar|16| 是|否|右1 |
-|recommend|int|11|是 |否|右1 |
-|user_id|int|11|是|否|右1 |
-|create_time|datetime|0|是|否|右1 |
-|update_time|timestamp|0|是|否|右1 |
+|examine_State|varchar|16| 是|否|審核狀態|
+|recommend|int|11|是 |否|智慧推薦|
+|user_id|int|11|是|否|使用者ID|
+|create_time|datetime|0|是|否|創建時間|
+|update_time|timestamp|0|是|否|更新時間|
 
 **sales_record_management表:**
 
