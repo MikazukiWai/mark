@@ -503,7 +503,7 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 |-------|:-----:|
 |目的|測試使用者透過正確的使用者名稱和密碼可否登入功能|
 |前提|未登入的情況下|
-|測試流程|1)進入登入頁面 2)輸入正確的使用者名稱和密碼|
+|測試流程|1)進入登入頁面, 2)輸入正確的使用者名稱和密碼|
 |預期結果|使用者名稱和密碼正確的時候,跳到登入成功介面,反之則顯示錯誤訊息,提示重新輸入|
 |實際結果|實際結果與預期結果一致|
 
@@ -511,49 +511,50 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 
 表5-2 商品查看功能測試表
 
-| 表頭1 | 表頭2 |
+|使用案例名稱|商品查看|
 |-------|:-----:|
-| 左1   |  中1  |
-| 左2   |  中2  |
-| 左3   |  中3  |
-| 左3   |  中3  |
-| 左3   |  中3  |
+|目的|測試商品查看功能|
+|前提|使用者登入|
+|測試流程|點擊商品列表|
+|預期結果|可以查看所有商品資訊|
+|實際結果|實際結果與預期結果一致|
+
 
 管理員新增商品介面測試： 
 
 表5-3 管理員新增商品介面測試表
 
-| 表頭1 | 表頭2 |
+|使用案例名稱|商品發布測試案例|
 |-------|:-----:|
-| 左1   |  中1  |
-| 左2   |  中2  |
-| 左3   |  中3  |
-| 左3   |  中3  |
-| 左3   |  中3  |
+|目的|測試商品發佈功能|
+|前提|用戶正常登入情況下|
+|測試流程|1)點選商品資訊管理就,然後點選新增後並填寫資料, 2)點選進行提交。|
+|預期結果|提交以後,頁面首頁會顯示新的商品訊息|
+|實際結果|實際結果與預期結果一致|
 
 商品搜尋功能測試： 
 
 表5-4商品搜尋功能測試表
 
-| 表頭1 | 表頭2 |
+|使用案例名稱|商品搜尋測試|
 |-------|:-----:|
-| 左1   |  中1  |
-| 左2   |  中2  |
-| 左3   |  中3  |
-| 左3   |  中3  |
-| 左3   |  中3  |
+|目的|測試商品搜尋功能|
+|前提|無|
+|測試流程|1)在搜尋框填入搜尋關鍵字。 2)點選搜尋按鈕。|
+|預期結果|頁面顯示包含有搜尋關鍵字的商品|
+|實際結果|實際結果與預期結果一致|
 
 密碼修改功能測試： 
 
 表5-5 密碼修改功能測試表
 
-| 表頭1 | 表頭2 |
+|使用案例名稱|密碼修改測試用例|
 |-------|:-----:|
-| 左1   |  中1  |
-| 左2   |  中2  |
-| 左3   |  中3  |
-| 左3   |  中3  |
-| 左3   |  中3  |
+|目的|測試管理者密碼修改功能|
+|前提|管理員用戶正常登入情況下|
+|測試流程|1)管理員密碼修改並完成填寫。 2)點選進行提交。|
+|預期結果|使用新的密碼可以登入|
+|實際結果|實際結果與預期結果一致|
 
 **5.3 系統測試結果**
 
@@ -561,6 +562,14 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 
 
 
+# 結論
+
+至此，基於Python的超市管理系統已經完成。這次Python超市管理系統的開發讓我深刻體會到積累經驗和事前準備的重要性。在同學的幫助下，成功完成了項目。雖然存在改進空間，但這次經歷讓我更熟悉技術並提升了解決問題的能力。
+
+# 參考
+1.https://xiaojie.blog.csdn.net/article/details/131471335?spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6-131471335-blog-125417172.235%5Ev39%5Epc_relevant_anti_t3_base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6-131471335-blog-125417172.235%5Ev39%5Epc_relevant_anti_t3_base&utm_relevant_index=13&ydreferer=aHR0cHM6Ly94aWFvamllLmJsb2cuY3Nkbi5uZXQvYXJ0aWNsZS9kZXRhaWxzLzEzMTQ3MTMzNT9zcG09MTAwMS4yMTAxLjMwMDEuNjY1MC42JnV0bV9tZWRpdW09ZGlzdHJpYnV0ZS5wY19yZWxldmFudC5ub25lLXRhc2stYmxvZy0yJTdFZGVmYXVsdCU3RUJsb2dDb21tZW5kRnJvbUJhaWR1JTdFUmF0ZS02LTEzMTQ3MTMzNS1ibG9nLTEyNTQxNzE3Mi4yMzUlNUV2MzklNUVwY19yZWxldmFudF9hbnRpX3QzX2Jhc2UmZGVwdGhfMS11dG1fc291cmNlPWRpc3RyaWJ1dGUucGNfcmVsZXZhbnQubm9uZS10YXNrLWJsb2ctMiU3RWRlZmF1bHQlN0VCbG9nQ29tbWVuZEZyb21CYWlkdSU3RVJhdGUtNi0xMzE0NzEzMzUtYmxvZy0xMjU0MTcxNzIuMjM1JTVFdjM5JTVFcGNfcmVsZXZhbnRfYW50aV90M19iYXNlJnV0bV9yZWxldmFudF9pbmRleD0xMw%3D%3D
+2.https://blog.csdn.net/m0_64069699/article/details/125065247?spm=1001.2014.3001.5502
+3.https://blog.csdn.net/W41ted/article/details/121239279?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-121239279-blog-122004093.235^v39^pc_relevant_3m_sort_dl_base2&spm=1001.2101.3001.4242.2&utm_relevant_index=4
 
 
 
