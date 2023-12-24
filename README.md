@@ -568,8 +568,11 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 
 # 參考
 1.https://xiaojie.blog.csdn.net/article/details/131471335?spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6-131471335-blog-125417172.235%5Ev39%5Epc_relevant_anti_t3_base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6-131471335-blog-125417172.235%5Ev39%5Epc_relevant_anti_t3_base&utm_relevant_index=13&ydreferer=aHR0cHM6Ly94aWFvamllLmJsb2cuY3Nkbi5uZXQvYXJ0aWNsZS9kZXRhaWxzLzEzMTQ3MTMzNT9zcG09MTAwMS4yMTAxLjMwMDEuNjY1MC42JnV0bV9tZWRpdW09ZGlzdHJpYnV0ZS5wY19yZWxldmFudC5ub25lLXRhc2stYmxvZy0yJTdFZGVmYXVsdCU3RUJsb2dDb21tZW5kRnJvbUJhaWR1JTdFUmF0ZS02LTEzMTQ3MTMzNS1ibG9nLTEyNTQxNzE3Mi4yMzUlNUV2MzklNUVwY19yZWxldmFudF9hbnRpX3QzX2Jhc2UmZGVwdGhfMS11dG1fc291cmNlPWRpc3RyaWJ1dGUucGNfcmVsZXZhbnQubm9uZS10YXNrLWJsb2ctMiU3RWRlZmF1bHQlN0VCbG9nQ29tbWVuZEZyb21CYWlkdSU3RVJhdGUtNi0xMzE0NzEzMzUtYmxvZy0xMjU0MTcxNzIuMjM1JTVFdjM5JTVFcGNfcmVsZXZhbnRfYW50aV90M19iYXNlJnV0bV9yZWxldmFudF9pbmRleD0xMw%3D%3D
+
 2.https://blog.csdn.net/m0_64069699/article/details/125065247?spm=1001.2014.3001.5502
+
 3.https://blog.csdn.net/W41ted/article/details/121239279?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-121239279-blog-122004093.235^v39^pc_relevant_3m_sort_dl_base2&spm=1001.2101.3001.4242.2&utm_relevant_index=4
+
 4.https://blog.csdn.net/Weixin_CXSJ881/article/details/129223223?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-129223223-blog-131228497.235%5Ev39%5Epc_relevant_anti_t3_base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-129223223-blog-131228497.235%5Ev39%5Epc_relevant_anti_t3_base&utm_relevant_index=2
 
 
