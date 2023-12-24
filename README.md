@@ -202,7 +202,8 @@ web後台管理上的管理員是維護整個基於Python的超市管理系統�
 
 本以Python為基礎的超市管理系統從架構上分為三層：表現層（UI）、業務邏輯層（BLL）、資料層（DL）。
 
-圖片加入
+![image](https://github.com/MikazukiWai/mark/blob/main/image/3-1.png)
+
 
 圖3-1基於Python的超市管理系統系統架構設計圖
 
@@ -226,7 +227,7 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 
 那麼接下來就要開始對本基於Python的超市管理系統的架構、主要功能和資料庫開始進行設計。基於Python的超市管理系統根據前面章節的需求分析得出，其整體設計模組圖如圖3-2所示。
 
-圖片加入
+![image](https://github.com/MikazukiWai/mark/blob/main/image/3-2.png)
 
 圖3-2 基於Python的超市管理系統功能模組圖
 
@@ -234,7 +235,7 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 
 後台管理者能夠實現前台註冊的使用者增刪改查操作，使用者模組結構圖如下圖：
 
-圖片加入
+![image](https://github.com/MikazukiWai/mark/blob/main/image/3-3.png)
 
 圖3-3用戶用戶模組結構圖
 
@@ -242,7 +243,7 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 
 基於Python的超市管理系統是一個交流性質的公開平台，使用者使用者和管理人員使用者可以對平台上資訊進行評論，增加使用者之間的互動性。但同時也為了更好的規範評論的內容，給予管理員刪除不合適的言論的功能，所以需要專門設計一個評論管理模組，具體的結構圖如下：
 
-圖片加入
+![image](https://github.com/MikazukiWai/mark/blob/main/image/3-4.png)
 
 圖3-4評論模組結構圖
 
@@ -250,7 +251,7 @@ UI的介面設計也要適應不同版本的基於Python的超市管理系統以
 
 超市管理系統是中需要儲存不少商品訊息，其模組功能結構，具體的結構圖如下：
 
-圖片加入
+![image](https://github.com/MikazukiWai/mark/blob/main/image/3-5.png)
 
 圖3-5商品資訊模組結構圖
 
